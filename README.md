@@ -24,15 +24,25 @@ Pathway to Machine Learning Mastery: Complete Machine Learning Course from Groun
 - `cd /workspaces/<your repository directory>/` $\implies$ `cd /workspaces/Pathway-to-Machine-Learning-Mastery`
 - `poetry run jupyter-book create <your book name>/` $\implies$ `poetry run jupyter-book create Pathway-to-Machine-Learning-Mastery-Book`
 
-### Step 07: Publish to GitHub Pages (using ghp-import)
+**Note:** Step 01 to 06 need to be done only once
+
+### Step 07: Update repo
+
+- Add content to repo
+- Add new packages to poetry (`poetry add <new-package-name>`)
+- Update requirements.txt
+- Update README.md
+- Update Table of Contents
+
+### Step 08: Publish to GitHub Pages (using ghp-import) $\implies$ 
 
 - `cd /workspaces/<your repository directory>/` $\implies$ `cd /workspaces/Pathway-to-Machine-Learning-Mastery`
 - `poetry run jupyter-book build <your book name>` $\implies$ `poetry run jupyter-book build Pathway-to-Machine-Learning-Mastery-Book`
 - `git add -A`
 - `git commit -m "<commit message>"`
-- `git push`
+- `git push -u origin main`
 - `poetry run ghp-import -n -p -f <your book name>/_build/html` $\implies$ `poetry run ghp-import -n -p -f Pathway-to-Machine-Learning-Mastery-Book/_build/html`
 
 ### Step 08: Check your website!
 
-- Check https://<username>.github.io/<your repository directory> $\implies$ https://ancilcleetus.github.io/Pathway-to-Machine-Learning-Mastery
+- Check `https://<username>.github.io/<your repository directory>` $\implies$ https://ancilcleetus.github.io/Pathway-to-Machine-Learning-Mastery
