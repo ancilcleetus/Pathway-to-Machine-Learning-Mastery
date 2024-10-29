@@ -2,6 +2,25 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
+
 root: intro
-chapters:
-- file: content/01_Python_for_Machine_Learning.ipynb
+title: Introduction
+
+parts:
+- caption: Frontmatter
+  chapters:
+  - file: preface
+
+- caption: Introduction to Python and Working with Data
+  numbered: true
+  chapters:
+  - file: 01_Python_for_Machine_Learning
+  
+- caption: Data Analysis and Preparation
+  numbered: true
+  chapters:
+  
+- caption: Classical Machine Learning with Scikit-Learn
+  numbered: true
+  chapters:
+
