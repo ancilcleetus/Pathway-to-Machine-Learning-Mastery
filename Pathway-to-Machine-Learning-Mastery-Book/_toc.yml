@@ -12,6 +12,6 @@ parts:
   - file: content/preface.md
 
 - caption: Introduction to Python and Working with Data
-  numbered: true
+  numbered: false
   chapters:
   - file: content/01_Python_for_Machine_Learning.ipynb
