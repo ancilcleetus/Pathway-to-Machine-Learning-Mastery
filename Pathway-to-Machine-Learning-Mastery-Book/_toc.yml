@@ -3,15 +3,15 @@
 
 format: jb-book
 
-root: intro
+root: content/intro.md
 title: Introduction
 
 parts:
 - caption: Frontmatter
   chapters:
-  - file: preface
+  - file: content/preface.md
 
 - caption: Introduction to Python and Working with Data
   numbered: true
   chapters:
-  - file: 01_Python_for_Machine_Learning
+  - file: content/01_Python_for_Machine_Learning.ipynb
