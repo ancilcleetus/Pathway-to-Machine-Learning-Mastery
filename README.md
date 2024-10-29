@@ -34,7 +34,12 @@ Pathway to Machine Learning Mastery: Complete Machine Learning Course from Groun
 - Update README.md
 - Update Table of Contents
 
-### Step 08: Publish to GitHub Pages (using ghp-import) $\implies$ 
+### Step 08: Pull latest changes to Code spaces
+
+- `cd /workspaces/<your repository directory>/` $\implies$ `cd /workspaces/Pathway-to-Machine-Learning-Mastery`
+- `git pull origin main`
+
+### Step 09: Publish to GitHub Pages (using ghp-import) $\implies$ 
 
 - `cd /workspaces/<your repository directory>/` $\implies$ `cd /workspaces/Pathway-to-Machine-Learning-Mastery`
 - `poetry run jupyter-book build <your book name>` $\implies$ `poetry run jupyter-book build Pathway-to-Machine-Learning-Mastery-Book`
@@ -43,6 +48,6 @@ Pathway to Machine Learning Mastery: Complete Machine Learning Course from Groun
 - `git push -u origin main`
 - `poetry run ghp-import -n -p -f <your book name>/_build/html` $\implies$ `poetry run ghp-import -n -p -f Pathway-to-Machine-Learning-Mastery-Book/_build/html`
 
-### Step 08: Check your website!
+### Step 10: Check your website!
 
 - Check `https://<username>.github.io/<your repository directory>` $\implies$ https://ancilcleetus.github.io/Pathway-to-Machine-Learning-Mastery
