@@ -15,12 +15,3 @@ parts:
   numbered: true
   chapters:
   - file: 01_Python_for_Machine_Learning
-  
-- caption: Data Analysis and Preparation
-  numbered: true
-  chapters:
-  
-- caption: Classical Machine Learning with Scikit-Learn
-  numbered: true
-  chapters:
-
