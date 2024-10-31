@@ -6,10 +6,10 @@
 
 #######################################################################################
 # Book settings
-title                       : Pathway to Machine Learning Mastery  # The title of the book. Will be placed in the left navbar.
-author                      : Ancil Cleetus  # The author of the book
-copyright                   : "2024"  # Copyright year to be placed in the footer
-logo                        : "content/Pathway-to-Machine-Learning-Mastery-Logo.png"  # A path to the book logo
+title                       : My Jupyter Book  # The title of the book. Will be placed in the left navbar.
+author                      : The Jupyter Book community  # The author of the book
+copyright                   : "2023"  # Copyright year to be placed in the footer
+logo                        : ""  # A path to the book logo
 # Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
 exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 # Auto-exclude files not in the toc
@@ -18,7 +18,7 @@ only_build_toc_files        : false
 #######################################################################################
 # Execution settings
 execute:
-  execute_notebooks         : off  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
+  execute_notebooks         : auto  # Whether to execute notebooks at build time. Must be one of ("auto", "force", "cache", "off")
   cache                     : ""    # A path to the jupyter cache that will be used to store execution artifacts. Defaults to `_build/.jupyter_cache/`
   exclude_patterns          : []    # A list of patterns to *skip* in execution (e.g. a notebook that takes a really long time)
   timeout                   : 30    # The maximum time (in seconds) each notebook cell is allowed to run.
@@ -83,9 +83,9 @@ launch_buttons:
   deepnote_url              : "" # The URL of Deepnote (https://deepnote.com)
 
 repository:
-  url                       : https://github.com/ancilcleetus/Pathway-to-Machine-Learning-Mastery  # The URL to your book's repository
-  path_to_book              : "Pathway-to-Machine-Learning-Mastery-Book"  # A path to your book's folder, relative to the repository root.
-  branch                    : main  # Which branch of the repository should be used when creating links
+  url                       : https://github.com/executablebooks/jupyter-book  # The URL to your book's repository
+  path_to_book              : ""  # A path to your book's folder, relative to the repository root.
+  branch                    : master  # Which branch of the repository should be used when creating links
 
 #######################################################################################
 # Advanced and power-user settings
