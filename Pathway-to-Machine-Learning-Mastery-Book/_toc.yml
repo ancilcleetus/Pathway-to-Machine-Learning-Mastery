@@ -15,3 +15,4 @@ parts:
   numbered: false
   chapters:
   - file: content/01_Python_for_Machine_Learning.ipynb
+  - file: content/02_Data_Computations_with_NumPy.ipynb
